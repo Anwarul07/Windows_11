@@ -36,10 +36,32 @@ center {
   width: 400px;
   height: 400px;
   position: absolute;
-  bottom: 55px;
+  bottom: -400px;
+  transition: all 0.4s ease-in;
   left: 35vw;
-  
-
- 
- 
+}
+.opacity {
+  transition: all 0.4s ease-in;
+  position: absolute;
+  bottom: 55px;
+}
+.icons {
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  z-index:1;
+}
+#chrome {
+  width: 90px;
+  height: 50px;
+}
+#edge {
+  width: 50px;
+  height: 50px;
+}
+#bin {
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
 }
